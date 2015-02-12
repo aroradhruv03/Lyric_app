@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:orientation="vertical"
+    android:scrollbars="vertical" >
+   <!--  android:background="@drawable/grass2" -->
+   
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:scrollbars="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:paddingTop="10dp"
+                        android:text="CREDITS"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="&quot;Welcome to the Lyrics Meaning App !&quot;"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                     />
+                
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="App made by Starz and inspired by a certain girl, 'Dawn'! :) Thanks for using our 'heavenly' app ! :)"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                     />
+                
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="'Starz' or the 'Pole Star'! It shows light to the world, and never strays from it's path. Somewhat a perfectionist, loves coding in Andi... :D"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                     />
+                
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="Dawn, is the goddess of light and beauty, and the mythological daughter of heaven and sister of night. She is the harbringer of light, hope, happiness, love, riches and all good things! :)"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                     />
+                
+                
+                
+                 <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="&quot;Any tips, suggestions!?\nYou can contact us at UrHeadApps.com or WeListenAndThenBowBow.com! :-D &quot;"
+                    android:textAppearance="?android:attr/textAppearanceMedium" 
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                    />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+</LinearLayout>
